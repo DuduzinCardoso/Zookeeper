@@ -1,0 +1,39 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+gradle/
+gradlew
+*.bat
+build
+
+
+# idea confid
+.idea
+
+# old stages
+/Zookeeper/*
+!/Zookeeper/task/
+/Zookeeper/task/*
+!/Zookeeper/task/src/
+!/Zookeeper/task/build.gradle
+!/Zookeeper/task/build.gradle.kts
+
+# Project exclude paths
+/Topics/If expression/Queens/out/
+/Topics/If expression/Queens/out/production/classes/
+/Topics/Introduction to MutableList/Initializing a mutable list of integers/out/
+/Topics/Introduction to MutableList/Initializing a mutable list of integers/out/production/classes/
+/Topics/Introduction to MutableList/Theory/out/
+/Topics/Introduction to MutableList/Theory/out/production/classes/
+/Topics/Reading data with a readln/Read a Double/out/
+/Topics/Reading data with a readln/Read a Double/out/production/classes/
+/Topics/Type conversion/Sum of Longs/out/
+/Topics/Type conversion/Sum of Longs/out/production/classes/
+/Topics/While loops/Collatz conjecture/out/
+/Topics/While loops/Collatz conjecture/out/production/classes/
+/Topics/While loops/The first position of the largest element/out/
+/Topics/While loops/The first position of the largest element/out/production/classes/
+/Topics/While loops/The sequence 1 2 2 3 3 3/out/
+/Topics/While loops/The sequence 1 2 2 3 3 3/out/production/classes/
